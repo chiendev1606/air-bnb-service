@@ -1,0 +1,48 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es2017",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "incremental": true,
+    "skipLibCheck": true,
+    "strictNullChecks": false,
+    "noImplicitAny": false,
+    "strictBindCallApply": false,
+    "forceConsistentCasingInFileNames": false,
+    "noFallthroughCasesInSwitch": false,
+    "esModuleInterop": true,
+    "paths": {
+      "@air-bnb/database": [
+        "libs/database/src"
+      ],
+      "@air-bnb/database/*": [
+        "libs/database/src/*"
+      ],
+      "@air-bnb/validators": [
+        "libs/validators/src"
+      ],
+      "@air-bnb/validators/*": [
+        "libs/validators/src/*"
+      ],
+      "@air-bnb/decorators": [
+        "libs/decorators/src"
+      ],
+      "@air-bnb/decorators/*": [
+        "libs/decorators/src/*"
+      ],
+      "@air-bnb/interceptors": [
+        "libs/interceptors/src"
+      ],
+      "@air-bnb/interceptors/*": [
+        "libs/interceptors/src/*"
+      ]
+    }
+  }
+}
